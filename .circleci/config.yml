@@ -58,7 +58,7 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy frontend"
             npm run frontend:deploy
-          name: Api Deploy 
+          name: Api
           # TODO: Install, build, deploy backend
           command: |
             echo "# TODO: Install, build, deploy backend"
