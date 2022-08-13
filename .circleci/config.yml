@@ -53,12 +53,12 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: Deploy Front-End
+          name: Front-End Deploy
           # TODO: Install, build, deploy front-end
           command: |
             echo "# TODO: Install, build, deploy frontend"
             npm run frontend:deploy
-          name: Deploy App
+          name: App Deploy 
           # TODO: Install, build, deploy backend
           command: |
             echo "# TODO: Install, build, deploy backend"
